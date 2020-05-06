@@ -1,0 +1,65 @@
+@charset "utf-8";
+html {
+    font-family: "Microsoft YaHei", serif;
+    font-size: 12px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+dt,
+ul,
+ol,
+li,
+fieldset,
+button,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    color: #692C12;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color-692C12 {
+    color: #692C12;
+}
